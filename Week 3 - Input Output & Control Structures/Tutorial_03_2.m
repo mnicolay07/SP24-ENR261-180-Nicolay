@@ -4,7 +4,7 @@ clear   % Clear the workspace variables
 % Output of the title and author to the command window.
 programName = "Tutorial_03_2";
 name = "Martina Nicolay";
-assistedBy = "";
+assistedBy = "no one";
 fprintf("Output for %s written by %s, with assistance from %s.\n\n", programName, name, assistedBy)
 varA = 25
 varA
