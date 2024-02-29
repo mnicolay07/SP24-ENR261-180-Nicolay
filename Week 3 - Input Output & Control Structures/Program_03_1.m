@@ -20,7 +20,7 @@ year_prompt= "What is your birth year?\n";
 year_ans= input(year_prompt); 
 
 %Prompt for months 
-month_prompt = "What is your birth month?\n";
+month_prompt = "What is your number birth month?\n";
 month_str = input(month_prompt, 's'); %string
 month_ans= str2double(month_str); %convert to double
 
@@ -37,7 +37,7 @@ else
 end 
 
 %overall total 
-if total_months> 0 && total_months < 240 
+if total_years> 0 && total_years < 20 
     fprintf("%d? Wow you're pretty young!\n", total_years);
 elseif total_months >= 240 && total_months <= 480 
     fprintf("%d?You're getting up there.\n",total_years);
